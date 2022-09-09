@@ -1,0 +1,24 @@
+.background{
+    background-color: #F6BE00;
+}
+.service1,.service2{
+  display: flex;
+  justify-content: space-between;
+}
+.service2{
+  flex-direction: row-reverse;
+}
+.service1 img,.service2 img{
+  width: 49%;
+}
+.service1 p,.service2 p{
+  width: 49%;
+}
+p{
+   text-align: justify;
+   padding: 10px;
+}
+
+.mybtn:hover{
+  background-color: #f8c20fd1;
+}
